@@ -6,8 +6,8 @@ O Objetivo principal do projeto é implementar o algoritmo de Huffman, assim com
 
 ## Organização do projeto
 * Todos os arquvios de códigos vão estar dentro de src
-* A implementação dos principais algoritmos (Headers e arquivos .c)vão estrar dentro de lib
-* Todos os arquivos para testes vão estar dentro de test
+* A implementação dos principais algoritmos vão estrar dentro da pasta lib
+* Todos os arquivos para testes vão estar dentro da pasta test
 
 
 ## Funcionamento do algoritmo e detalhes de Implementação
