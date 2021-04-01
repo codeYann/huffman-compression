@@ -1,7 +1,7 @@
 CC=gcc
 
 all:
-	$(CC) main.c ./lib/huffman.c -o main 
+	$(CC) main.c ./lib/huffman.c ./lib/fila.c -o main 
 	./main 
 
 clean:
