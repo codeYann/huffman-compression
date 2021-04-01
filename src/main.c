@@ -3,9 +3,8 @@
 #include "./lib/huffman.h"
 
 char path[] = "./utils/book.txt";
-
 int main(int argc, char* argv[]) {
   char* str = importarString(path);
-  printf("%s\n", str);
+  Fila* teste = filaFrequencia(str);
   return 0;
 }
