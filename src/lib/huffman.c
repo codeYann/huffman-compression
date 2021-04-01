@@ -12,7 +12,8 @@ char* importarString(char* path) {
     printf("Erro ao tentar ler um arquivo de texto\n");
     return NULL;
   }
-
+  
+  /* Calculando o tamanho, em caracteres, do meu texto */
   fseek(buffer, 0, SEEK_END);
   int size = ftell(buffer);
   string = malloc((sizeof(char) * size + 1)); 
