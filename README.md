@@ -11,7 +11,10 @@ O Objetivo principal do projeto é implementar o algoritmo de Huffman, assim com
 
 
 ## Funcionamento do algoritmo e detalhes de Implementação
-Toda a parte técnica de construção do algoritmo e detalhes de implementação vão estar contidos em: [Link](https://github.com/codeYann/huffman-compression)
+Toda a parte técnica de construção do algoritmo e detalhes de implementação vão estar contidos em: [Link](https://github.com/codeYann/huffman-compression/blob/main/src/lib/README.md)
+
+## Download do projeto
+Para baixar o projeto, basta rodar no terminal o comando: <code> git clone https://github.com/codeYann/huffman-compression </code>
 
 ## License 
 [MIT](https://mit-license.org/)
