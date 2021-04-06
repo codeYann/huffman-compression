@@ -2,9 +2,11 @@
 #include <stdlib.h>
 #include "./lib/huffman.h"
 
-char path[] = "./utils/book.txt";
+char path[] = "./utils/texto.txt";
+
 int main(int argc, char* argv[]) {
   char* str = importarString(path);
-  Fila* teste = filaFrequencia(str);
+  Lista* teste = computarFrequencia(str);
+  percorrer(teste);
   return 0;
 }
