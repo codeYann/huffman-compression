@@ -6,7 +6,7 @@
 char *importarString(char *path) {
   char *string;
   FILE *buffer = fopen(path, "r");
-
+  /* Verificação do buffer */
   if (buffer == NULL) {
     printf("Erro ao tentar ler um arquivo de texto\n");
     return NULL;
@@ -48,6 +48,7 @@ Lista *computarFrequencia(char *texto) {
       push(lista, texto[i], count);
     }
   }
+  /* Ordeno a lista antes de retorna-lá */
   bubbleSort(lista->inicio);
   return lista;
 }
