@@ -62,7 +62,6 @@ void bubbleSort(Node *inicio) {
   if (inicio == NULL)
     return;
   do {
-
     trocado = 0;
     pointer = inicio;
 
