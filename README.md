@@ -6,9 +6,10 @@ Implementação do algoritmo de Huffman para compressão de dados
 - Nome: Yan Rodrigues da Silva
 - curso: Ciência da computação
 - Matrícula: 495532
+
 ## Objetivo
 
-O Objetivo principal do projeto é implementar o algoritmo de Huffman, assim como, utiliza-lo para uma série de testes em arquivos .txt
+O Objetivo principal do projeto é implementar o algoritmo de Huffman e testa-lo em arquivos de texto.
 
 ## Organização do projeto
 
@@ -18,13 +19,16 @@ O Objetivo principal do projeto é implementar o algoritmo de Huffman, assim com
 
 ## Funcionamento do algoritmo e detalhes de Implementação :computer:
 
-Toda a parte técnica de construção do algoritmo e detalhes de implementação vão estar contidos em: [Link](https://github.com/codeYann/huffman-compression/blob/main/src/lib/README.md)
+Toda a parte técnica de construção dos algoritmos e detalhes de implementação vão estar contidos em: [Documentação](https://github.com/codeYann/huffman-compression/blob/main/src/lib/README.md)
 
 ## Download do projeto :arrow_down_small:
 
 No terminal, clone o projeto:
 
 > <code> git clone https://github.com/codeYann/huffman-compression </code>
+
+## Executando o projeto
+Dentro de src, utilize o comando make
 
 ## License
 
